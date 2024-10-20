@@ -1,15 +1,16 @@
-
 # Write Up - Juste un petit peu de LSB
 
 ## Description
 
 Challenge de stéganographie visant à retrouver un message caché dans un fichier .wav fourni. Message sous la forme `NBCTF{...}`
 
+[Juste un petit peu de LSB](challJLSB.png)
+
 ## Solution
 
 ### 1ère Étape : Type de stéganographie sur fichier WAV
 
-Tout d'abord, les fichiers WAV sont des fichiers stockant des échantillons sonores sans compression avec perte. 
+Tout d'abord, les fichiers WAV sont des fichiers stockant des échantillons sonores sans compression avec perte.
 
 Cela permet de pouvoir lire les échantillons et modifier leur LSB (Bit de poids faible) dans le but de cacher des informations.
 
