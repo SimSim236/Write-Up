@@ -4,7 +4,7 @@
 
 Challenge de stéganographie visant à retrouver un message caché dans un fichier .wav fourni. Message sous la forme `NBCTF{...}`
 
-![Juste un petit peu de LSB](challJLSB.png)
+[Juste un petit peu de LSB](challJLSB.png)
 
 ## Solution
 
